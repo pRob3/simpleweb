@@ -1,33 +1,35 @@
-
 # Docker Node.js server
 
 A simple node express server running in a Docker container.
 
+## Run Locally
 
+Clone the project
 
+```bash
+  git clone https://github.com/pRob3/simpleweb.git
+```
 
-## Dockerizing your Node.js application
+Go to the project directory
 
-Run following command inside the simpleweb directory
+```bash
+  cd simpleweb
+```
+
+Build docker image and tag it.
 
 ```bash
   docker build -t <YourDockerName>/simpleweb .
 ```
 
-
-## Run docker image
-
-Run following command inside the simpleweb directory
+Run container and start the server
 
 ```bash
   docker run -p 8080:8080 <YourDockerName>/simpleweb
 ```
-    
+
+Go to http://localhost:8080 in your browser.
+
 ## Tech Stack
 
-
 **Server:** Docker, Node, Express
-
-
-
-
