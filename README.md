@@ -72,11 +72,3 @@ Print out logs from the given container.
 ## Tech Stack
 
 **Server:** Docker, Node, Express
-
-## Running Tests
-
-To run tests, run the following command
-
-```bash
-  npm run test
-```
