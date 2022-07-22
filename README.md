@@ -1,4 +1,4 @@
-# Docker Node.js server
+# Docker Node.js Express Server
 
 A simple node express server running in a Docker container.
 
